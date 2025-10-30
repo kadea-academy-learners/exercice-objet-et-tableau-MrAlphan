@@ -2,7 +2,7 @@
 // Écrire une fonction averageNote avec `notes` comme parametre qui effectue les opérations suivantes :
 // - Calcule la moyenne des notes
 // - retourne un message "Réussi" si la moyenne est >= 10, sinon "Échoué"
-// Crée un tableau contenant 5 notes
+
 let notes = [7, 14, 15, 9, 11];
 
 function averageNote(notes) {
@@ -18,12 +18,10 @@ function averageNote(notes) {
     return "Réussi (" + moyenne + ")";
   } else {
     return "Échoué (" + moyenne + ")";
-  }
+  }	
 }
 
-
 console.log(averageNote(notes));
-
 
 module.exports = {
 	averageNote,
